@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Home</title>
+  </head>
+  <body>
+    <style>
+      header, footer {
+  background-color: #a4a4a4;
+  padding: 10px;
+}
+
+main {
+  padding: 10px;
+  background-color: silver;
+}
+
+.post {
+  background-color: grey;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  display: flex;
+}
+
+.post img {
+  margin: 20px;
+}
+
+.footer-columns {
+  display: flex;
+}
+
+.footer-column {
+  flex: 50%;
+  margin: 20px;
+}
+#menu1{
+position: relative;
+display: block;
+width: 100%;
+height: auto;
+z-index: 10;
+}
+#menu1 ul{
+position: relative;
+display: block;
+margin: 0px;
+padding: 0px;
+width: 100%;
+height: auto;
+list-style: none;
+}
+#menu1 > ul::after{
+display: block;
+width: 100%;
+height: 0px;
+clear: both;
+content: " ";
+}
+#menu1 ul li{
+position: relative;
+display: block;
+ float: left;
+width: auto;
+height: auto;
+}
+#menu1 ul li a{
+display: block;
+padding: 9px 25px 0px 25px;
+font-size: 14px;
+line-height: 1.3em;
+text-decoration: none;
+font-weight: bold;
+text-transform: uppercase;
+height: 36px;
+box-sizing: border-box;
+color: blue;
+background: #a4a4a4;
+}
+#menu1 ul li ul{
+position: absolute;
+top: 36px;
+left: 0px;
+display: none;
+width: 200px;
+background: #a4a4a4;
+box-shadow: 0px 20px 50px 10px rgba(0, 0, 0, 1);
+}
+#menu1 ul li:hover ul {
+  display: block;
+}
+#menu1 ul li ul li{
+float: none;
+width: 100%;
+}
+
+#menu1 ul li ul li a{
+display: block;
+text-transform: none;
+height: auto;
+padding: 7px 25px;
+width: 100%;
+box-sizing: border-box;
+border-top: 1px solid #ffffff;
+color: white;
+}
+
+#menu1 ul li ul li:first-child a{
+border-top: 0px;
+}
+
+
+
+#menu2{
+position: relative;
+display: block-axis;
+width: 100%;
+height: auto;
+z-index: 10;
+}
+#menu2 ul{
+position: relative;
+display: block;
+margin: 0px;
+padding: 0px;
+width: 100%;
+height: auto;
+list-style: none;
+}
+#menu2 > ul::after{
+display: block;
+width: 100%;
+height: 0px;
+clear: both;
+content: " ";
+}
+#menu2 ul li{
+position: relative;
+display: block;
+ float: left;
+width: auto;
+height: auto;
+}
+#menu2 ul li a{
+display: block;
+padding: 9px 25px 0px 25px;
+font-size: 14px;
+line-height: 1.3em;
+text-decoration: none;
+font-weight: bold;
+text-transform: uppercase;
+height: 36px;
+box-sizing: border-box;
+color: blue;
+background: #a4a4a4;
+}
+#menu2 ul li ul{
+position: absolute;
+top: 36px;
+left: 0px;
+display: none;
+width: 200px;
+background: #a4a4a4;
+box-shadow: 0px 20px 50px 10px rgba(0, 0, 0, 1);
+}
+#menu2 ul li:hover ul {
+  display: block;
+}
+#menu2 ul li ul li{
+float: none;
+width: 100%;
+}
+
+#menu2 ul li ul li a{
+display: block;
+text-transform: none;
+height: auto;
+padding: 7px 25px;
+width: 100%;
+box-sizing: border-box;
+border-top: 1px solid #a4a4a4;
+color: white;
+}
+
+#menu2 ul li ul li:first-child a{
+border-top: 0px;
+}
+    </style>
+    <header>
+    <img src="https://kgd.kstati-fest.ru/wp-content/uploads/sites/17/2025/11/Логотип_горизонтальный_черный.png" width="290" draggable="false" alt="Logo">
+</header>
+
+<main>
+<nav id="menu1">
+    <ul>
+ 		<li><a href="#none">Навигация | Подробнее</a>
+      <ul>
+      <li><a href="Roblox.html">Roblox</a></li>
+      <li><a href="GeometryDash.html">Geometry Dash</a></li>
+      <li><a href="Minecraft.html">Minecraft</a></li>
+    </ul>
+      <li>
+ 		<li><a href="#none">О Сайте</a>
+      <ul>
+      <li><a href="SiteD.html">Сайт</a></li>
+    </ul>
+    </ul>
+</nav>
+  <div class="pos">
+    <div class="post">
+      <img height="230" src="https://upload.wikimedia.org/wikipedia/commons/1/1e/Roblox_Logo_2025.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled" alt="Roblox">
+      <div>
+        <h3>Roblox</h3>
+        <p>
+          Roblox — игровая онлайн-платформа и система создания игр, позволяющая любому пользователю создавать свои собственные и играть в созданные другими игры, охватывающие широкий спектр жанров. В некоторых источниках Roblox называют метавселенной. Моя наполовину любимая игра. Моя любимая игра +1 Followers per click.
+        </p>
+        <a href="Roblox.html">Подробнее</a>
+      </div>
+    </div>
+    <div class="post">
+      <img height="280" src="https://static.wikia.nocookie.net/geometry-dash/images/1/1f/GD_Logo.png/revision/latest?cb=20240217124508&path-prefix=ru" alt="GeometryDashLogo">
+      <div>
+        <p>
+        <h3>Geometry Dash</h3> Geometry Dash — компьютерная игра в жанре музыкального 2D-платформера, разработанная шведским разработчиком Робертом Топалой (псевдоним RobTop Games). Выпущена 13 августа 2013 года для мобильных устройств на iOS и Android, позже появилась версия для ПК (Windows и macOS). Пока что моя Самая любимая игра, так как я начинаю строить будущий топ 1 для GDL.
+        </p>
+        <a href="GeometryDash.html">Подробнее</a>
+      </div>
+    </div>
+    <div class="post">
+      <img height="270" src="https://minecraft.wiki/images/Java_Edition_icon_3.png?f7112" alt="Minecraft">
+      <div>
+        <h3>Minecraft</h3>
+        <p>
+          Minecraft - Тоже моя любимая игра, я люблю играть потому что я люблю выживать, строить и т.д. Люблю играть на серверах, так как можно повеселиться.
+        </p>
+        <a href="Minecraft.html">Подробнее</a>
+      </div>
+    </div>
+  </div>
+</main>
+<footer>
+  <div>
+    <div>
+      <div>
+        <img src="https://kgd.kstati-fest.ru/wp-content/uploads/sites/17/2025/11/Логотип_горизонтальный_черный.png" alt="Logo" width="250">
+      </div>
+      <div class="footer-columns">
+        <div class="footer-column">
+                      <nav id="menu2">
+    <ul>
+ 		<li><a href="#none">Навигация | Подробнее</a>
+      <ul>
+      <li><a href="Roblox.html">Roblox</a></li>
+      <li><a href="GeometryDash.html">Geometry Dash</a></li>
+      <li><a href="Minecraft.html">Minecraft</a></li>
+    </ul>
+      <li>
+ 		<li><a href="#none">О Сайте</a>
+      <ul>
+      <li><a href="SiteD.html">Сайт</a></li>
+    </ul>
+    </ul>
+</nav>
+          <h3>О мне</h3>
+          <p>
+            Мне сейчас 11 лет! живу в Городе Волгодонск. Живу на улице Энтузиастов. Хожу в Академию Top!
+          </p>
+        </div>
+        <div class="footer-column">
+          <h3>Свяжитесь с нами</h3>
+          <p>
+            Если вы Хотите научиться Прогграмировать Пишите Сюда:
+            <br><strong>Gmail: <a href="">dg613503@gmail.com</a></strong>
+          </p>
+        </div>
+      </div>
+    </div>
+    <center>
+      <small>Copyright &copy; 2026</small>
+    </center>
+  </div>
+</footer>
+  </body>
+</html>
